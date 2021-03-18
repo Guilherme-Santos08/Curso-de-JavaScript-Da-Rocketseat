@@ -4,7 +4,7 @@
    var name
 
    // assignment or atriuição de valores
-   name = "mike"
+   name = "Guilherme"
 
    // que tipo de dado foi colocado na variável
 
@@ -13,7 +13,16 @@
    // agrupamento de declarações
    let age, isHuman
 
-   age = 18
+   age = 17
    isHuman = true
 
-   console.log(name, age, isHuman)
+   // multiplos arumentos na funcao
+   // console.log(name, age, isHuman)
+
+   // escrita de text + variáveis
+
+   // concatenando valores
+   // console.log('o ' + name + ' tem ' + age + ' anos.')
+
+   // interpolando valores com template literals or template strings
+   console.log(`o ${name} tem ${age} anos.`)
