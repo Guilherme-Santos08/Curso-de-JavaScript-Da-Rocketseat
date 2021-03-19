@@ -42,4 +42,31 @@ let students = []
 students = [
    student
 ]
-console.log(students)
+// console.log(students)
+
+/*
+   7. Coloque no console o valor da posição zero do Array acima
+*/
+// console.log(students[0])
+
+/*
+   8. Crie um novo student e coloque na posição 1 do Array students
+*/
+const john = {
+   name: "John",
+   age: 23,
+   weight: 74.8,
+   isSubscribed: true
+}
+
+students[1]= john
+// console.log(students)
+
+/*
+   9. Sem rodar o código responda qual é a resposta do código abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
+
+   console.log(a)
+   var a = 1
+*/
+console.log(a)
+var a = 1
